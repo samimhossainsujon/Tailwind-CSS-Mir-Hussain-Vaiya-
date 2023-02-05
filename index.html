@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Mir Hossain Vaiya</title>
+
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;1,300;1,400&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS color  -->
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                yellow: "#FECC02",
+                Black: "#131313",
+                gray:"#4E4E4E"
+
+              },
+              fontFamily: {
+                bebas:['Bebas Neue', "cursive"],
+                montserrat:['Montserrat', "sans-serif"],
+              }
+            },
+          },
+        };
+      </script>
+
+
+
+</head>
+<body>
+
+  <!-- navbar -->
+
+    <nav class="bg-white h-20 fixed top-0 right-0 left-0">
+      <div class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto font-bebas">
+        <h1 class="text-2xl">JHAKA NAKA PRODUCTION</h1>
+      <ul class="flex text-lg gap-8">
+        <li>About Us</li>
+        <li>Our Movies</li>
+        <li>Serves</li>
+      </ul>
+    </nav>
+      </div>
+
+
+      <!-- main header -->
+
+      <section class="bg-red-700 h-screen pt-20 bg-[url('../image/banner.jpg')] bg-cover">
+        
+       <div class="h-full w-full max-w-7xl mx-auto px-5 flex items-center">
+        <div class="font-bebas">
+          <h2 class="text-white text-lg"> Movie production studio </h2>
+          <h1 class="text-7xl text-white"> Films made to </h1>
+          <h1 class=" text-7xl text-yellow" > Perfection </h1>
+  
+          <p class="font-montserrat text-white max-w-sm mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Minus repellendus sunt aliquam quam, hic exercitationem 
+            molestias, debitis accusamus dolore ad atque numquam 
+            consequatur nobis, qui est rem unde velit facere.</p>
+
+            <button class="font-bebas border-2 border-white py-2 px-3 text-white text-lg hover:bg-green-700 hover:border-yellow hover:text-black transition ease-in duration-300">Discover More</button>
+
+
+        </div>
+       </div>
+
+
+
+      </section>
+</body>
+</html>
